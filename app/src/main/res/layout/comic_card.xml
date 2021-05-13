@@ -212,6 +212,7 @@
         android:layout_margin="16dp"
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/favs"
+        android:paddingBottom="12dp"
         app:layout_constraintEnd_toStartOf="@+id/fabList"
         app:layout_constraintTop_toBottomOf="@+id/tvAnioCont"
         app:srcCompat="@android:drawable/ic_menu_save" />
@@ -224,6 +225,7 @@
         android:layout_margin="16dp"
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/favs"
+        android:paddingBottom="12dp"
         app:layout_constraintEnd_toStartOf="@+id/fabAdd"
         app:layout_constraintTop_toBottomOf="@+id/tvAnioCont"
         app:srcCompat="@android:drawable/stat_notify_sync" />
@@ -236,6 +238,7 @@
         android:layout_margin="16dp"
         android:layout_marginEnd="8dp"
         android:contentDescription="@string/favs"
+        android:paddingBottom="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvAnioCont"
         app:srcCompat="@android:drawable/btn_star_big_on" />
